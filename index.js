@@ -39,4 +39,35 @@ console.log(sotrazione(10,6));
 function salutaPredefinito(utente, tipo_saluto = "ciao"){
     console.log(`${tipo_saluto}`,`${utente}`);
 }
+
 // variante saluto utente
+// valori di defoult mesi per ultimi
+
+const fn_costante = function(){
+    console.log("funzione in costante");
+}
+
+fn_costante();
+
+const funzione_arrwo = () => {
+    console.log("funzione in costante");
+}
+
+// arrwo ha di defolt un return
+// deve pero essere una espressione e senza operzioni logiche  
+const arrwo = (a , b) => a + b;
+console.log(arrwo(20, 58));
+
+// scope
+let var_globale = "sono una variabile globale";
+
+function mia_funzione(){
+    let var_locale = "sono una variabile locale";
+    console.log(var_locale);
+    console.log(var_globale);
+}
+
+console.log(var_locale);// non definita
+// solo usandogvfeeeeeeeeeeee let c'è una diferenza tra variabile locale e globale
+
+
