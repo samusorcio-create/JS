@@ -47,3 +47,17 @@ function maggiore(a, b){
 console.log(maggiore(70, 75));
 console.log(maggiore(85, 80));
 
+function pariODispari(numero){
+    var striga = ""
+    if(numero %2 === 0){
+        for (let i = 0; i < numero ;i++){
+            stringa += "0"
+        }
+    }else{
+        for (let i = 0; i < numero ;i++){
+            stringa += "0"
+        }
+    }
+}
+
+
