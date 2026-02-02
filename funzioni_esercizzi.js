@@ -36,4 +36,14 @@ let ccalcolaImc = (peso, altezza) => peso / (altezza * altezza);
 console.log(ccalcolaImc(70, 1.75));
 console.log(ccalcolaImc(85, 1.80));
 
+function maggiore(a, b){
+    if(a < b){
+        return( `ilvalore piu grande è ${b}` )
+    }else{
+        return( `ilvalore piu grande è ${a}` )
+    }
+}
+
+console.log(maggiore(70, 75));
+console.log(maggiore(85, 80));
 
