@@ -23,3 +23,12 @@ for(let i = 0; i < 10; i++){
     num0 = num1;
     num1 = risultato;
 }
+
+let fattoriale = 1;
+let somma = 0;
+for(let i = 0; i < 5; i++){
+    fattoriale *= i
+    somma += fattoriale 
+}
+
+alert(somma)
