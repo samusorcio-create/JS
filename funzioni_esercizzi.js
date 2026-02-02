@@ -31,4 +31,9 @@ console.log(celsiusToFahrenheit(0));
 console.log(celsiusToFahrenheit(25));
 console.log(celsiusToFahrenheit(100));
 
+let ccalcolaImc = (peso, altezza) => peso / (altezza * altezza);
+
+console.log(ccalcolaImc(70, 1.75));
+console.log(ccalcolaImc(85, 1.80));
+
 
