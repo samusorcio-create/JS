@@ -1,3 +1,5 @@
+// 290
+
 console.log("hello");
 
 let uno = 1;
@@ -12,6 +14,7 @@ for(let i = 0; i < 10; i++){
 alert(due)
 alert(uno)
 
+// 300
 
 let num0 = 0;
 let num1 = 1; 
@@ -32,3 +35,20 @@ for(let i = 0; i < 5; i++){
 }
 
 alert(somma)
+
+// 330
+
+let numero_positivo;
+
+
+do{
+
+numero_positivo = parseInt(prompt("inserire valore positivo"));
+
+if(numero_positivo <= 0){
+    console.log("numero non valido");
+}
+
+}while(numero_positivo <= 0);
+
+console.log("numero positivo:" , numero_positivo);
