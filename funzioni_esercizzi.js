@@ -60,4 +60,16 @@ function pariODispari(numero){
     }
 }
 
+// function applicaSconto(prezzo, percentualeSconto){
 
+// }
+
+//3,14
+
+function areaCerchio(raggio){
+    return Math.PI * (raggio * raggio)
+}
+
+function doppiaAreaCerchio(valore){
+    return areaCerchio(valore) + areaCerchio(valore)
+}
