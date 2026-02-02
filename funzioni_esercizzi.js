@@ -6,4 +6,12 @@ saluta()
 saluta()
 saluta()
 
+function salutaStudente(nome){
+    console.log(`caio ${nome}, buono studio!`);
+}
+
+salutaStudente("no")
+salutaStudente("you")
+salutaStudente("paw")
+
 
