@@ -1,10 +1,13 @@
 
-const somma = (x, y) => x + y;
-const moltiplica = (x, y) => x * y;
+let m = 0;
 
-function eseguiOperazione(x, y, operazione){
-    return operazione(x,y);
+function sommaFinoA(n){
+    
+    if(n < 1){
+        return "monkey"
+    }
+    m = m + n
+    return sommaFinoA(n-1);
 }
 
-console.log(eseguiOperazione(5, 3, somma)); // 8
-console.log(eseguiOperazione(5, 3, moltiplica)); // 15
+console.log(sommaFinoA(5));
